@@ -23,8 +23,8 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
   storage_room = [
-    CONVENTIONAL_PRODUCE.sort,
-    ORGANIC_PRODUCE.sort
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE
   ]
   storage_room
   
@@ -37,8 +37,8 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   
   storage_room = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
+    CONVENTIONAL_PRODUCE.sort,
+    ORGANIC_PRODUCE.sort
   ]
   storage_room
   
